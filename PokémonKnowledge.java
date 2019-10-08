@@ -21,11 +21,16 @@ public class PokémonKnowledge {
         System.out.println("Hello trainer! Which of my lovely feature would you like to use?");
         System.out.println("\t1. Pokédex \t2. Type Counters");
         String option = kb.nextLine();
-        
+        //String[][] data = {
+          //  {        "a", "b", "c", "d"       }, 
+            //{        "a", "b", "c", "d"       }
+        //} ;
+        //Get Information in first then work the matrix
         if (option.equals("Pokedex")) {
             System.out.println("Okay, now what is the name of the Pokemon you wish to search for?");
             String name = kb.nextLine();
             if (name.equals("Bulbasaur")) {
+                //System.out.print(data[0][])
                 System.out.println("Number 1, Bulbasaur, the Seed Pokemon. This pokemon is a grass and poison type. A strange seed was planted on its back at birth. The plant sprouts and grows with this pokemon.");
             }
             else if (name.equals("Ivysaur")) {
@@ -100,8 +105,245 @@ public class PokémonKnowledge {
             else if (name.equals("Pikachu")) {
                 System.out.println("Number 25, Pikachu, the Mouse Pokemon. This pokemon is an electric type. It has sacs on both its cheeks. If threatened, it looses electric charges from the sacs.");
             }
-            
-            else {
+            else if (name.equals("Raichu")) {
+                System.out.print("Number 26, Raichu, the Mouse Pokemon. This pokemon is an electric type. When its electricity builds, its muscles are stimulated, and it becomes more agressive than usual.");
+            }
+            else if (name.equals("Sandshrew")) {
+                System.out.println("Number 27, Sandshrew, the Mouse Pokemon. This pokemon is a ground type. To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.");
+            }
+            else if (name.equals("Sandslash")) {
+                System.out.println("Number 28, Sandslash, the Mouse Pokemon. This pokemon is a ground type. It is adept at attacking with the spines on its back and its sharp claws while quickly scurrying about.");
+            }
+            else if (name.equals("Nidoran")) {
+                System.out.println("Which gender of Nidoran are you referring to?");
+                String gender = kb.nextLine();
+                if (gender.equals("Male")) {
+                    System.out.println("Number 32, Nidoran, the Poison Pin Pokemon. This pokemon is a poison type. It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.");
+                }
+                else if (gender.equals("Female")) {
+                    System.out.println("Number 29, Nidoran, the Poison Pin Pokemon. This pokemon is a poison type. Small and very docile, it protects itself with its small, poisonous hornn when attacked.");
+                }
+                else {
+                    System.out.println("That's not a gender silly!");
+                }
+            }
+            else if (name.equals("Nidorina")) {
+                System.out.println("Number 30, Nidorina, the Poison Pin Pokemon. This pokemon is a poison type. The female has a gentle temperament. It emits ultrasonic cries that have the power to befuddle foes.");
+            }
+            else if (name.equals("Nidoqueen")) {
+                System.out.println("Number 31, Nidoqueen, the Drill Pokemon. This pokemon is a poison and ground type. Its entire body is armored with hard scales. It will protect the young in its burrow with its life.");
+            }
+            else if (name.equals("Nidorino")) {
+                System.out.println("Number 33, Nidorino, the Poison Pin Pokemon. This pokemon is a poison type. Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated.");
+            }
+            else if (name.equals("Nidoking")) {
+                System.out.println("Number 34, Nidoking, the Drill Pokemon. This pokemon is a poison and ground type. It uses its powerful tail in battle to smash, constrict, then break the prey's bones.");
+            }
+            else if (name.equals("Clefairy")) {
+                System.out.println("Number 35, Clefairy, the Fairy Pokemon. This pokemon is a fairy type. They're popular, but they're rare. Trainers who show them off recklessly may be targeted by thieves.");
+            }
+            else if (name.equals("Clefable")) {
+                System.out.println("Number 36, Clefable, the Fairy Pokemon. This pokemon is a fairy type. It can't help but hear a pin drop from over a half a mile away, so it lives deep in the mountains where there aren't many people or pokemon.");
+            }
+            else if (name.equals("Vulpix")) {
+                System.out.println("Number 37, Vulpix, the Fox Pokemon. This pokemon is a fire type. At the time of its birth, Vulpix has one white tail. The tail separates into six if this pokemon recieves planty of love from its trainer. The six tails become magnificently curled.");
+            }
+            else if (name.equals("Ninetails")) {
+                System.out.println("Number 38, Ninetails, the Fox Pokemon. This pokemon is a fire type. It is vindictive and relentless by nature. Those who cross it even once will be cursed for a thousand years, along with their descendants.");
+            }
+            else if (name.equals("Jigglypuff")) {
+                System.out.println("Number 39, Jigglypuff, the Balloon Pokemon. This pokemon is a normal and fairy type. If it inflates to sing a lullaby, it can perform longer and cause sure drowsiness in its audience.");
+            }
+            else if (name.equals("Wigglytuff")) {
+                System.out.println("Number 40, Wigglytuff, the Balloon Pokemon. This pokemon is a normal and fairy type. Thanks to its bouncy body and fine fur, this pokemon is sought after. Holding one in your arms while you fall asleep feels great.");
+            }
+            else if (name.equals("Zubat")) {
+                System.out.println("Number 41, Zubat, the Bat Pokemon. This pokemon is a poison and flying type. Even though it has no eyes, it can sense obstacles using ultrasonic waves it emits from its mouth.");
+            }
+            else if (name.equals("Golbat")) {
+                System.out.println("Number 42, Golbat, the Bat Pokemon. This pokemon is a poison and flying type. Flitting around in the dead of night, it sinks its fangs into its prey and drains a nearly fatal amount of blood.");
+            }
+            else if (name.equals("Oddish")) {
+                System.out.print("Number 43, Oddish, the Weed Pokemon. This pokemon is a grass and poison type. During the day it keeps its face buried in the ground. At night, it wanders around sowing its seeds.");
+            }
+            else if (name.equals("Gloom")) {
+                System.out.println("Number 44, Gloom, the Weed Pokemon. This pokemon is a grass and poison type. The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.");
+            }
+            else if (name.equals("Vileplume")) {
+                System.out.println(" Number 45, Vileplume, the Flower Pokemon. This pokemon is a grass and poison type. The larger its petals, the more toxic pollen it contains. Its big head it heavy and hard to hold up.");
+            }
+            else if (name.equals("Paras")) {
+                System.out.println("Number 46, Paras, the Mushroom Pokemon. This pokemon is a bug and grass type. It burrows under the ground to gnaw on tree roots. The mushrooms on it's back absorb most of the nutrition.");
+            }
+            else if (name.equals("Parasect")) {
+                System.out.println("Number 47, Parasect, the Mushroom Pokemon. This pokemon is a bug and grass type. The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving.");
+            }
+            else if (name.equals("Venonat")) {
+                System.out.println("Number 48, Venonat, the Insect Pokemon. This pokemon is a bug and poison type. Its eyes funtion as radar units. It catches and eats small bugs that hide in darkness.");
+            }
+            else if (name.equals("Venomoth")) {
+                System.out.println("Number 49, Venomoth, the Poison Moth Pokemon. This pokemon is a bug and poison type. When it attacks, it flaps its large wings violently to scatter its poisonous powder all around.");
+            }
+            else if (name.equals("Diglett")) {
+                System.out.println("Number 50, Diglett, the Mole Pokemon. This pokemon is a ground type. If a diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops.");
+            }
+            else if (name.equals("Dugtrio")) {
+                System.out.println("Number 51, Dugtrio, the Mole Pokemon. This pokemon is a ground type. A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.");
+            }
+            else if (name.equals("Meowth")) {
+                System.out.println("Number 52, Meowth, the Scratch Cat Pokemon. This pokemon is a normal type. Meowth withdraw their sharp claws into their paws to silently sneak about. For some reason, this pokemon loves shiny coins that glitter with light.");
+            }
+            else if (name.equals("Persian")) {
+                System.out.println("Number 53, Persian, the Classy Cat Pokemon. This pokemon is a normal type. Its lithe muscles allow it to walk without making a sound. It attacks in an instant.");
+            }
+            else if (name.equals("Psyduck")) {
+                System.out.println("Number 54, Psyduck, the Duck Pokemon. This pokemon is a water type. Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.");
+            }
+            else if (name.equals("Golduck")) {
+                System.out.println("Number 55, Golduck, the Duck Pokemon. This pokemon is a watwer type. Even fast-swimming fish pokemon can be disabled by Golduck. It brings them to a standstill and freezes them.");
+            }
+            else if (name.equals("Mankey")) {
+                System.out.println("Number 56, Mankey, the Pig Monkey Pokemon. This pokemon is a fighting type. The smallest of things could cause it to lose its temper. Because it doesn't hold in its stress, this pokemon can live a long time.");
+            }
+            else if (name.equals("Primeape")) {
+                System.out.println("Number 57, Primeape, the Pig Monkey Pokemon. This pokemon is a fighting type. It will never forgive opponents who have angered it. Even after it has beaten them down until they can't move, it never ever forgives.");
+            }
+            else if (name.equals("Growlithe")) {
+                System.out.println("");
+            }
+            else if (name.equals("Arcanine")) {
+                System.out.println("");
+            }
+            else if (name.equals("Poliwag")) {
+                System.out.println("");
+            }
+            else if (name.equals("Poliwhirl")) {
+                System.out.println("");
+            }
+            else if (name.equals("Poliwrath")) {
+                System.out.println("");
+            }
+            else if (name.equals("Abra")) {
+                System.out.println("");
+            }
+            else if (name.equals("Kadabra")) {
+                System.out.println("");
+            }
+            else if (name.equals("Alakazam")) {
+                System.out.println("");
+            }
+            else if (name.equals("Machop")) {
+                System.out.println("");
+            }
+            else if (name.equals("Machoke")) {
+                System.out.println("");
+            }
+            else if (name.equals("Machamp")) {
+                System.out.println("");
+            }
+            else if (name.equals("Bellsprout")) {
+                System.out.println("");
+            }
+            else if (name.equals("Weepinbell")) {
+                System.out.println("");
+            }
+            else if (name.equals("Victreebell")) {
+                System.out.println("");
+            }
+            else if (name.equals("Tentacool")) {
+                System.out.println("");
+            }
+            else if (name.equals("Tentacruel")) {
+                System.out.println("");
+            }
+            else if (name.equals("Geodude")) {
+                System.out.println("");
+            }
+            else if (name.equals("Graveler")) {
+                System.out.println("");
+            }
+            else if (name.equals("Golem")) {
+                System.out.println("");
+            }
+            else if (name.equals("Ponyta")) {
+                System.out.println("");
+            }
+            else if (name.equals("Rapidash")) {
+                System.out.println("");
+            }
+            else if (name.equals("Slowpoke")) {
+                System.out.println("");
+            }
+            else if (name.equals("Slowbro")) {
+                System.out.println("");
+            }
+            else if (name.equals("Magnemite")) {
+                System.out.println("");
+            }
+            else if (name.equals("Magneton")) {
+                System.out.println("");
+            }
+            else if (name.equals("Farfetch'd")) {
+                System.out.println("");
+            }
+            else if (name.equals("Doduo")) {
+                System.out.println("");
+            }
+            else if (name.equals("Dodrio")) {
+                System.out.println("");
+            }
+            else if (name.equals("Seel")) {
+                System.out.println("");
+            }
+            else if (name.equals("Dewgong")) {
+                System.out.println("");
+            }
+            else if (name.equals("Grimer")) {
+                System.out.println("");
+            }
+            else if (name.equals("Muk")) {
+                System.out.println("");
+            }
+            else if (name.equals("Shellder")) {
+                System.out.println("");
+            }
+            else if (name.equals("Cloyster")) {
+                System.out.println("");
+            }
+            else if (name.equals("Gastly")) {
+                System.out.println("");
+            }
+            else if (name.equals("Haunter")) {
+                System.out.println("");
+            }
+            else if (name.equals("Gengar")) {
+                System.out.println("");
+            }
+            else if (name.equals("Onix")) {
+                System.out.println("");
+            }
+            else if (name.equals("Drowzee")) {
+                System.out.println("");
+            }
+            else if (name.equals("Hypno")) {
+                System.out.println("");
+            }
+            else if (name.equals("Krabby")) {
+                System.out.println("");
+            }
+            else if (name.equals("Kingler")) {
+                System.out.println("");
+            }
+            else if (name.equals("Voltorb")) {
+                System.out.println("");
+            }
+            else if (name.equals("Electrode")) {
+                System.out.println("");
+            }
+            else if (name.equals("Exeggcute")) {
+                System.out.println("");
+            }
+             else {
                 System.out.println("That pokemon is not identified yet.");
                 System.exit(0);
         }
