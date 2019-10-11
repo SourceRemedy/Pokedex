@@ -18,8 +18,8 @@ public class PokémonKnowledge {
      */
     public static void main(String[] args) {
         Scanner kb = new Scanner (System.in);
-        System.out.println("Hello trainer! Which of my lovely feature would you like to use?");
-        System.out.println("\t1. Pokédex \t2. Type Counters");
+        System.out.println("Hello trainer! Which of my lovely features would you like to use?");
+        System.out.println("\t1. Pokédex");
         String option = kb.nextLine();
         //String[][] data = {
           //  {        "a", "b", "c", "d"       }, 
@@ -209,139 +209,286 @@ public class PokémonKnowledge {
                 System.out.println("Number 57, Primeape, the Pig Monkey Pokemon. This pokemon is a fighting type. It will never forgive opponents who have angered it. Even after it has beaten them down until they can't move, it never ever forgives.");
             }
             else if (name.equals("Growlithe")) {
-                System.out.println("");
+                System.out.println("Number 58, Growlithe, the Puppy Pokemon. This pokemon is a fire type. ");
             }
             else if (name.equals("Arcanine")) {
-                System.out.println("");
+                System.out.println("Number 59, Arcanine, the Legendary Pokemon. This pokemon is a fire type. ");
             }
             else if (name.equals("Poliwag")) {
-                System.out.println("");
+                System.out.println("Number 60, Poliwag, the Tadpole Pokemon. This pokemon is a water type. ");
             }
             else if (name.equals("Poliwhirl")) {
-                System.out.println("");
+                System.out.println("Number 61, Poliwhirl, the Tadpole Pokemon. This pokemon is a water type. ");
             }
             else if (name.equals("Poliwrath")) {
-                System.out.println("");
+                System.out.println("Number 62, Poliwrath, the Tadpole Pokemon. This pokemon is a water and fighting type type. ");
             }
             else if (name.equals("Abra")) {
-                System.out.println("");
+                System.out.println("Number 63, Abra, the Psi Pokemon. This pokemon is a psychich type. ");
             }
             else if (name.equals("Kadabra")) {
-                System.out.println("");
+                System.out.println("Number 64, Kadabra, the Psi Pokemon. This pokemon is a psychic type. ");
             }
             else if (name.equals("Alakazam")) {
-                System.out.println("");
+                System.out.println("Number 65, Alakazam, the Psi Pokemon. This pokemon is a psychic type. ");
             }
             else if (name.equals("Machop")) {
-                System.out.println("");
+                System.out.println("Number 66, Machop, the Superpower Pokemon. This pokemon is a fighting type. ");
             }
             else if (name.equals("Machoke")) {
-                System.out.println("");
+                System.out.println("Number 67, Machoke, the Superpower Pokemon. This pokemon is a fighting type. ");
             }
             else if (name.equals("Machamp")) {
-                System.out.println("");
+                System.out.println("Number 68, Machamp, the Superpower Pokemon. This pokemon is a fighting type. ");
             }
             else if (name.equals("Bellsprout")) {
-                System.out.println("");
+                System.out.println("Number 69, Bellsprout, the Flower Pokemon. This pokemon is a grass and poison type. ");
             }
             else if (name.equals("Weepinbell")) {
-                System.out.println("");
+                System.out.println("Number 70, Weepinbell, the Flycatcher Pokemon. This pokemon is a grass and poison type. ");
             }
             else if (name.equals("Victreebell")) {
-                System.out.println("");
+                System.out.println("Number 71, Victreebell, the Flycatcher Pokemon. This pokemon is a grass and poison type. ");
             }
             else if (name.equals("Tentacool")) {
-                System.out.println("");
+                System.out.println("Number 72, Tentacool, the Jellyfish Pokemon. This pokemon is a water and poison type. ");
             }
             else if (name.equals("Tentacruel")) {
-                System.out.println("");
+                System.out.println("Number 73, Tentacruel, the Jellyfish Pokemon. This pokemon is a water and poison type. ");
             }
             else if (name.equals("Geodude")) {
-                System.out.println("");
+                System.out.println("Number 74, Geodude, the Rock Pokemon. This pokemon is a rock and ground type. ");
             }
             else if (name.equals("Graveler")) {
-                System.out.println("");
+                System.out.println("Number 75, Graveler, the Rock Pokemon. This pokemon is a rock and ground type. ");
             }
             else if (name.equals("Golem")) {
-                System.out.println("");
+                System.out.println("Number 76, Golem, the Magneton Pokemon. This pokemon is a rockk and ground type. ");
             }
             else if (name.equals("Ponyta")) {
-                System.out.println("");
+                System.out.println("Number 77, Ponyta, the Fire Horse Pokemon. This pokemon is a fire type. ");
             }
             else if (name.equals("Rapidash")) {
-                System.out.println("");
+                System.out.println("Number 78, Rapidash, the Fire Horse Pokemon. This pokemon is a fire type. ");
             }
             else if (name.equals("Slowpoke")) {
-                System.out.println("");
+                System.out.println("Number 79, Slowpoke, the Dopey Pokemon. This pokemon is a water and psychic type. ");
             }
             else if (name.equals("Slowbro")) {
-                System.out.println("");
+                System.out.println("Number 80, Slowbro, the Hermit Crab Pokemon. This pokemon is a water and psychic type. ");
             }
             else if (name.equals("Magnemite")) {
-                System.out.println("");
+                System.out.println("Number 81, Magnemite, the Magnet Pokemon. This pokemon is an electric and steel type. ");
             }
             else if (name.equals("Magneton")) {
-                System.out.println("");
+                System.out.println("Number 82, Magneton, the Magnet Pokemon. This pokemon is an electric and steel type. ");
             }
             else if (name.equals("Farfetch'd")) {
-                System.out.println("");
+                System.out.println("Number 83, Farfetch'd, the Wild Duck Pokemon. This pokemon is a normal and flying type. ");
             }
             else if (name.equals("Doduo")) {
-                System.out.println("");
+                System.out.println("Number 84, Doduo, the Twin Bird Pokemon. This pokemon is a normal and flying type. ");
             }
             else if (name.equals("Dodrio")) {
-                System.out.println("");
+                System.out.println("Number 85, Dodrio, the Triple Bird Pokemon. This pokemon is a normal and flying type. ");
             }
             else if (name.equals("Seel")) {
-                System.out.println("");
+                System.out.println("Number 86, Seel, the Sea Lion Pokemon. This pokemon is a water type. ");
             }
             else if (name.equals("Dewgong")) {
-                System.out.println("");
+                System.out.println("Number 87, Dewgong, the Sea Lion Pokemon. This pokemon is a water and ice type. ");
             }
             else if (name.equals("Grimer")) {
-                System.out.println("");
+                System.out.println("Number 88, Grimer, the Sludge Pokemon. This pokemon is a poison type. ");
             }
             else if (name.equals("Muk")) {
-                System.out.println("");
+                System.out.println("Number 89, Muk, the Sludge Pokemon. This pokemon is a poison type. ");
             }
             else if (name.equals("Shellder")) {
-                System.out.println("");
+                System.out.println("Number 90, Shellder, the Bivalve Pokemon. This pokemon is a water type. ");
             }
             else if (name.equals("Cloyster")) {
-                System.out.println("");
+                System.out.println("Number 91, Cloyster, the Bivalve Pokemon. This pokemon is a water and ice type. ");
             }
             else if (name.equals("Gastly")) {
-                System.out.println("");
+                System.out.println("Number 92, Gastly, the Gas Pokemon. This pokemon is a ghost and poison type. ");
             }
             else if (name.equals("Haunter")) {
-                System.out.println("");
+                System.out.println("Number 93, Haunter, the Gas Pokemon. This pokemon is a ghost and poison type. ");
             }
             else if (name.equals("Gengar")) {
-                System.out.println("");
+                System.out.println("Number 94, Gengar, the Shadow Pokemon. This pokemon is a ghost and poison type. ");
             }
             else if (name.equals("Onix")) {
-                System.out.println("");
+                System.out.println("Number 95, Onix, the Rock Snake Pokemon. This pokemon is a rock and ground type. ");
             }
             else if (name.equals("Drowzee")) {
-                System.out.println("");
+                System.out.println("Number 96, Drowzee, the Hypnosis Pokemon. This pokemon is a psychic type. ");
             }
             else if (name.equals("Hypno")) {
-                System.out.println("");
+                System.out.println("Number 97, Hypno, the Hypnosis Pokemon. This pokemon is a psychic type. ");
             }
             else if (name.equals("Krabby")) {
-                System.out.println("");
+                System.out.println("Number 98, Krabby, the River Crab Pokemon. This pokemon is a water type. ");
             }
             else if (name.equals("Kingler")) {
-                System.out.println("");
+                System.out.println("Number 99, Kingler, the Pincer Pokemon. This pokemon is a water type. ");
             }
             else if (name.equals("Voltorb")) {
-                System.out.println("");
+                System.out.println("Number 100, Voltorb, the Ball Pokemon. This pokemon is an electric type. ");
             }
             else if (name.equals("Electrode")) {
-                System.out.println("");
+                System.out.println("Number 101, Electrode, the Ball Pokemon. This pokemon is an electric type. ");
             }
             else if (name.equals("Exeggcute")) {
-                System.out.println("");
+                System.out.println("Number 102, Exeggcute, the Egg Pokemon. This pokemon is a grass and psychic type. ");
+            }
+            else if (name.equals("Exeggutor")) {
+                System.out.println("Number 103, Exeggutor, the Coconut Pokemon. This pokemon is a grass and psychic type. ");
+            }
+            else if (name.equals("Cubone")) {
+                System.out.println("Number 104, Cubone, the Lonely Pokemon. This pokemon is a ground type. ");
+            }
+            else if (name.equals("Marowak")) {
+                System.out.println("Number 105, Marowak, the Bone Keeper Pokemon. This pokemon is a ground type. ");
+            }
+            else if (name.equals("Hitmonlee")) {
+                System.out.println("Number 106, Hitmonlee, the Kicking Pokemon. This pokemon is a fighting type. ");
+            }
+            else if (name.equals("Hitmonchan")) {
+                System.out.println("Number 107, Hitmonchan, the Punching Pokemon. This pokemon is a fighting type. ");
+            }
+            else if (name.equals("Lickitung")) {
+                System.out.println("Number 108, Lickitung, the Licking Pokemon. This pokemon is a normal type. ");
+            }
+            else if (name.equals("Koffing")) {
+                System.out.println("Number 109, Koffing, the Posion Gas Pokemon. This pokemon is a poison type. ");
+            }
+            else if (name.equals("Weezing")) {
+                System.out.println("Number 110, Weezing, the Poison Gas Pokemon. This pokemon is a poison type. ");
+            }
+            else if (name.equals("Rhyhorn")) {
+                System.out.println("Number 111, Rhyhorn, the Spikes Pokemon. This pokemon is a rock and ground type. ");
+            }
+            else if (name.equals("Rhydon")) {
+                System.out.println("Number 112, Rhydon, the Drill Pokemon. This pokemon is a rock and ground type. ");
+            }
+            else if (name.equals("Chansey")) {
+                System.out.println("Number 113, Chansey, the Egg Pokemon. This pokemon is a normal type. ");
+            }
+            else if (name.equals("Tangela")) {
+                System.out.println("Number 114, Tangela, the Vine Pokemon. This pokemon is a grass type. ");
+            }
+            else if (name.equals("Kangaskhan")) {
+                System.out.println("Number 115, Kangaskhan, the Parent Pokemon. This pokemon is a normal type. ");
+            }
+            else if (name.equals("Horsea")) {
+                System.out.println("Number 116, Horsea, the Dragon Pokemon. This pokemon is a water type. ");
+            }
+            else if (name.equals("Seadra")) {
+                System.out.println("Number 117, Seadra, the Dragon Pokemon. This pokemon is a water type. ");
+            }
+            else if (name.equals("Goldeen")) {
+                System.out.println("Number 118, Goldeen, the Goldfish Pokemon. This pokemon is a water type. ");
+            }
+            else if (name.equals("Seaking")) {
+                System.out.println("Number 119, Seaking, the Goldfish Pokemon. This pokemon is a water type. ");
+            }
+            else if (name.equals("Staryu")) {
+                System.out.println("Number 120, Staryu, the Star Shape Pokemon. This pokemon is a water type. ");
+            }
+            else if (name.equals("Starmie")) {
+                System.out.println("Number 121, Starmie, the Mysterious Pokemon. This pokemon is a water and psychic type. ");
+            }
+            else if (name.equals("Mr. Mime")) {
+                System.out.println("Number 122, Mr. Mime, the Barrier Pokemon. This pokemon is a psychic and fairy type. ");
+            }
+            else if (name.equals("Scyther")) {
+                System.out.println("Number 123, Scyther, the Mantis Pokemon. This pokemon is a bug and flying type. ");
+            }
+            else if (name.equals("Jynx")) {
+                System.out.println("Number 124, Jynx, the Human Shape Pokemon. This pokemon is an ice of psychic type. ");
+            }
+            else if (name.equals("Electabuzz")) {
+                System.out.println("Number 125, Electabuzz, the Electric Pokemon. This pokemon is an electric type. ");
+            }
+            else if (name.equals("Magmar")) {
+                System.out.println("Number 126, Magmar, the Spitfire Pokemon. This pokemon is a fire type. ");
+            }
+            else if (name.equals("Pinsir")) {
+                System.out.println("Number 127, Pinsir, the Stag Beetle Pokemon. This pokemon is a bug type. ");
+            }
+            else if (name.equals("Tauros")) {
+                System.out.println("Number 128, Tauros, the Wild Bull Pokemon. This pokemon is a normal type. ");
+            }
+            else if (name.equals("Magikarp")) {
+                System.out.println("Number 129, Magikarp, the Fish Pokemon. This pokemon is a water type. ");
+            }
+            else if (name.equals("Gyarados")) {
+                System.out.println("Number 130, Gyarados, the Atrocious Pokemon. This pokemon is a water and flying type. ");
+            }
+            else if (name.equals("Lapras")) {
+                System.out.println("Number 131, Lapras, the Transport Pokemon. This pokemon is a water and ice type. ");
+            }
+            else if (name.equals("Ditto")) {
+                System.out.println("Number 132, Ditto, the Transform Pokemon. This pokemon is a normal type. ");
+            }
+            else if (name.equals("Eevee")) {
+                System.out.println("Number 133, Eevee, the Evolution Pokemon. This pokemon is a normal type. ");
+            }
+            else if (name.equals("Vaporeon")) {
+                System.out.println("Number 134, Vaporeon, the Bubble Jet Pokemon. This pokemon is a water type. ");
+            }
+            else if (name.equals("Jolteon")) {
+                System.out.println("Number 135, Jolteon, the Lighting Pokemon. This pokemon is an electric type. ");
+            }
+            else if (name.equals("Flareon")) {
+                System.out.println("Number 136, Flareon, the Flame Pokemon. This pokemon is a fire type. ");
+            }
+            else if (name.equals("Porygon")) {
+                System.out.println("Number 137, Porygon, the Virtual Pokemon. This pokemon is a normal type. ");
+            }
+            else if (name.equals("Omanyte")) {
+                System.out.println("Number 138, Omanyte, the Spiral Pokemon. This pokemon is a rock and water type. ");
+            }
+            else if (name.equals("Omastar")) {
+                System.out.println("Number 139, Omastar, the Spiral Pokemon. This pokemon is a rock and water type. ");
+            }
+            else if (name.equals("Kabuto")) {
+                System.out.println("Number 140, Kabuto, the Shellfish Pokemon. This pokemon is a rock and water type. ");
+            }
+            else if (name.equals("Kabutops")) {
+                System.out.println("Number 141, Kabutops, the Shellfish Pokemon. This pokemon is a rock and water type. ");
+            }
+            else if (name.equals("Aerodactyl")) {
+                System.out.println("Number 142, Aerodactyl, the Fossil Pokemon. This pokemon is a rock and flying type. ");
+            }
+            else if (name.equals("Snorlax")) {
+                System.out.println("Number 143, Snorlax, the Sleeping Pokemon. This pokemon is a normal type. ");
+            }
+            else if (name.equals("Articuno")) {
+                System.out.println("Number 144, Articuno, the Freeze Pokemon. This pokemon is an ice and flying type. ");
+            }
+            else if (name.equals("Zapdos")) {
+                System.out.println("Number 145, Zapdos, the Electric Pokemon. This pokemon is an electric and flying type. ");
+            }
+            else if (name.equals("Moltres")) {
+                System.out.println("Number 146, Moltres, the Flame Pokemon. This pokemon is a fire and flying type. ");
+            }
+            else if (name.equals("Dratini")) {
+                System.out.println("Number 147, Dratini, the Dragon Pokemon. This pokemon is a dragon type. ");
+            }
+            else if (name.equals("Dragonair")) {
+                System.out.println("Number 148, Dragonair, the Dragon Pokemon. This pokemon is a dragon type. ");
+            }
+            else if (name.equals("Dragonite")) {
+                System.out.println("Number 149, Dragonite, the Dragon Pokemon. This pokemon is a dragon and flying type. ");
+            }
+            else if (name.equals("Mewtwo")) {
+                System.out.println("Number 150, Mewtwo, the Genetic Pokemon. This pokemon is a psychic type. ");
+            } 
+            else if (name.equals("Mew")) {
+                System.out.println("Number 151, Mew, the New Species Pokemon. This pokemon is a psychic type. ");
             }
              else {
                 System.out.println("That pokemon is not identified yet.");
